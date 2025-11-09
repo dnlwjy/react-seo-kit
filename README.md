@@ -1,6 +1,6 @@
 # react-site-metadata
 
-A lightweight React utility component for managing SEO metadata, Open Graph tags, Twitter Cards, and canonical URLs. Designed to simplify the process of adding consistent metadata across your application.
+A lightweight React utility component for managing SEO metadata, Open Graph tags, Twitter Cards, and canonical URLs. I have used this site metadata alongside with breadcrumb Designed to simplify the process of adding consistent metadata across your application.
 
 Built with **TypeScript** and powered by **react-helmet-async**.
 
