@@ -19,7 +19,7 @@ export default function App() {
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>
         
-        {/* Global SEO with default value */}
+        {/* Global SEO with pre-defined value */}
         <SiteMetaData
           title="Example App"
           description="This is an example application using react-seo-kit."
