@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { SiteMetaData, BreadcrumbSchema } from "react-seo-kit";
+import { SiteMetaData } from "@/components/SiteMetaData";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 interface Item {
   id: string;
