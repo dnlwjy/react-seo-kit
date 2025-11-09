@@ -3,8 +3,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // SEO kit
-import { SiteMetaData } from "react-seo-kit";
-import { BreadcrumbSchema } from "react-seo-kit";
+import { SiteMetaData } from "@/components/SiteMetaData";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 // all pages
 import HomePage from "./pages/HomePage";
