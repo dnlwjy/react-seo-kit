@@ -6,7 +6,7 @@ The component is written in **TypeScript** and powered by **react-helmet-async**
 
 Always place these components at the top level of your page before any visual UI elements like Header or even main, because it will ensure all the meta tags and structured data are registered immediately, before the rest of the page is processed.
 
-```bash
+```tsx
 <>
   {/* Always place SEO components at the top */}
   <SiteMetaData />
@@ -20,7 +20,6 @@ Always place these components at the top level of your page before any visual UI
     </article>
   </main>
 </>
-
 
 ---
 
