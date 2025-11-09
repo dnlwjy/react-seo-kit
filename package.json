@@ -1,0 +1,43 @@
+{
+  "name": "react-seo-kit",
+  "version": "1.0.0",
+  "description": "A lightweight SEO utility kit for React applications, including metadata, Open Graph tags, Twitter Cards, and Breadcrumb structured data.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "seo",
+    "metadata",
+    "open graph",
+    "twitter card",
+    "breadcrumb",
+    "schema",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "react": ">=17",
+    "react-helmet-async": ">=1.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/react-seo-kit.git"
+  },
+  "homepage": "https://github.com/your-username/react-seo-kit#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/react-seo-kit/issues"
+  }
+}
